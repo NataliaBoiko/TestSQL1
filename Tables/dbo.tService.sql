@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[tService]
+(
+[ID] [int] NOT NULL IDENTITY(1, 1),
+[Name] [varchar] (255) COLLATE Ukrainian_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[tService] ADD CONSTRAINT [PK__tService__3214EC2703317E3D] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
+GO

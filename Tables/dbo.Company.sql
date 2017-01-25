@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Company]
+(
+[ID] [int] NOT NULL IDENTITY(1, 1),
+[Name] [varchar] (255) COLLATE Ukrainian_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Company] ADD CONSTRAINT [PK__Company__3214EC277F60ED59] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
+GO
